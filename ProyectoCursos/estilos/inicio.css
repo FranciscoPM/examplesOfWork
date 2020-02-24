@@ -1,0 +1,44 @@
+/* HOJA DE ESTILOS para nuestro index o 'inicio' */
+
+body {
+    height: 60vw;
+    width: 100vw;
+    background-color: darkgray;
+    overflow: hidden;
+}
+
+#titulo {
+    text-align: center;
+    font-size: 5vw;
+}
+
+#Content {
+    background-color: whitesmoke;
+    margin: 5vw 5vw 15vw 5vw;
+    padding: 5vw 28vw 7.5vw 28vw;
+    text-align: center;
+}
+
+#formEntrada {
+    background-color: white;
+    padding: 1.5vw 1.5vw;
+}
+
+#formEntrada label {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#formEntrada .in_text {
+    background-color: lightgray;
+    border: inherit;
+}
+
+#in_user {
+    margin-left: 29px;
+}
+
+#in_submit {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightgray;
+    border: inherit;
+}

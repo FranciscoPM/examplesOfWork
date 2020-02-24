@@ -1,0 +1,24 @@
+CREATE DATABASE cursos;
+
+USE cursos;
+
+CREATE TABLE usuarios(
+id_usuario INT AUTO_INCREMENT NOT NULL,
+usuario VARCHAR(25) NOT NULL,
+contra VARCHAR(50) NOT NULL,
+PRIMARY KEY (id_usuario)
+);
+
+CREATE TABLE cursos(
+id_curso INT AUTO_INCREMENT,
+curso_disponible VARCHAR(50) NOT NULL,
+plazas_disponibles INT NOT NULL,
+plazas_ocupadas INT NOT NULL,
+plazas_totales INT NOT NULL,
+PRIMARY KEY(id_curso)
+);
+
+INSERT INTO usuarios(usuario, contra) VALUES ('root', '1234');
+
+INSERT INTO cursos(curso_disponible, plazas_disponibles, plazas_ocupadas, plazas_totales) VALUES
+('Escalada', 0, 18, 18), ('Guitarra Española', 16, 9, 25), ('Inglés', 40, 0, 40), ('Diseño Gráfico', 12, 6, 18);

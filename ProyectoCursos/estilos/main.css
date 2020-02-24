@@ -1,0 +1,42 @@
+/* HOJA DE ESTILOS (CSS) */
+
+body {
+    background-color: whitesmoke;
+}
+
+#primero {
+    text-align: center;
+}
+
+#tabla_cursos {
+    border-collapse: collapse;
+    width: 50vw;
+    background-color: white;
+}
+
+#tabla_cursos thead tr th {
+    background-color: black;
+    color: white;
+}
+
+#tabla_cursos tbody tr:nth-child(even) {
+    background-color: gray;
+}
+
+#tabla_cursos tbody tr td:first-child {
+    font-weight: bold;
+}
+
+#tabla_cursos tbody tr td:nth-child(n+2) {
+    text-align: center;
+}
+
+#divAñadir {
+    width: 48vw;
+    padding: 1vw 1vw 1vw 1vw;
+    border: black 1px dashed;
+}
+
+#in_curso {
+    margin-left: 48px;
+}
